@@ -10,7 +10,7 @@ const CaseStudySection = () => {
           <div className="rounded-tl-[10px] rounded-bl-[10px] px-[50px] py-[80px] bg-[#f2ede7]">
             <h4 className="font-medium text-[#313131]">CASE STUDY</h4>
             <h3 className="mx-[0] my-[25px] max-w-[320px] text-xl">
-              Trusted by the world's most profit-centric teams
+              Trusted by the world&apos;s most profit-centric teams
             </h3>
             <p className="max-w-[410px] text-[#686868] font-medium">
               Real Estate Cashback helps individuals and businesses scale their

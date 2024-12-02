@@ -1,5 +1,5 @@
 import Image from "next/image";
-import LoansImg from "/public/assets/loans.png";
+// import LoansImg from "/public/assets/loans.png";
 import piggy1 from "@/asset/piggy1.png";
 import piggy2 from "@/asset/piggy2.png";
 import piggy3 from "@/asset/piggy3.png";
