@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import Header from "@/components/Menu/menu";
 import FooterSection from "@/components/Footer/footer";
 import pss1 from "@/asset/pss1.png";
