@@ -4,10 +4,10 @@ import case1 from "@/asset/case1.png";
 
 const CaseStudySection = () => {
   return (
-    <div className="mt-[500px] bg-[#0b2230]">
+    <div className="mt-[500px] bg-[#0b2230] sm:mt-[350px]">
       <div className="pt-[70px] w-[90vw] max-w-[1350px] mx-[auto] my-[0]">
-        <div className="grid grid-cols-[repeat(2,_1fr)] max-w-[1200px] mx-[auto] my-[0] relative -top-[320px]">
-          <div className="rounded-tl-[10px] rounded-bl-[10px] px-[50px] py-[80px] bg-[#f2ede7]">
+        <div className="grid grid-cols-[repeat(2,_1fr)] max-w-[1200px] mx-[auto] my-[0] relative -top-[320px] sm:grid-cols-[1fr] sm:rounded-[10px] sm:overflow-hidden">
+          <div className="rounded-tl-[10px] rounded-bl-[10px] px-[50px] py-[80px] bg-[#f2ede7] sm:sm:rounded-[0px]">
             <h4 className="font-medium text-[#313131]">CASE STUDY</h4>
             <h3 className="mx-[0] my-[25px] max-w-[320px] text-xl">
               Trusted by the world&apos;s most profit-centric teams
@@ -24,7 +24,7 @@ const CaseStudySection = () => {
             </a>
           </div>
           <div
-            className={`rounded-tr-[10px] rounded-br-[10px] px-[50px] py-[80px] bg-[#ff5402] relative z-[2] before:opacity-[.4] before:absolute before:top-[0] before:left-[0] before:z-[-1]`}
+            className={`rounded-tr-[10px] rounded-br-[10px] px-[50px] py-[80px] bg-[#ff5402] relative z-[2] before:opacity-[.4] before:absolute before:top-[0] before:left-[0] before:z-[-1] sm:sm:rounded-[0px]`}
           >
             <h5 className="text-[#fff] text-xl font-bold mb-[60px]">
               Since Investing and Partnering with Real Estate Cashback
@@ -55,8 +55,8 @@ const CaseStudySection = () => {
             tips and offers that would help build your business.
           </p>
           <a
-            href="/member"
-            className="px-[20px] py-[15px] rounded-[5px] inline-block outline-[0] cursor-pointer text-sm text-[#fff]"
+            href="http://bit.ly/realestatecashback"
+            className="px-[20px] py-[15px] rounded-[5px] inline-block outline-[0] cursor-pointer text-sm text-[#fff] bg-[#ff5402]"
           >
             Subscribe
           </a>

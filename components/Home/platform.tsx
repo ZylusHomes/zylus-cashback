@@ -11,7 +11,7 @@ export default function PlatformsSection() {
       title: "Real Estate Cashback",
       text: "Real Estate Cashback is a real estate trading initiative developed by Real Estate Cashback Cooperative Society Limited. It involves the acquisition of landed properties in a prime location for the purpose of reselling for profit maximization.",
       img: CashbackImg,
-      link: "/real-estate",
+      link: "/real-estate-cashback",
       linkText: "Explore Cashback",
     },
     {
@@ -19,7 +19,7 @@ export default function PlatformsSection() {
       title: "PSS",
       text: "Property Savings Scheme is a real estate investment platform that allows every individual to save monthly for a period of one (1) year to co-join the development of a building project to resale and earn from the profit generated collectively as a cooperative.",
       img: CashbackImg2,
-      link: "/pdss",
+      link: "/pss",
       linkText: "Explore PSS",
     },
   ];
@@ -37,7 +37,7 @@ export default function PlatformsSection() {
             like never before.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-2 sm:grid-cols-1 gap-8">
           {platforms.map((platform) => (
             <div
               key={platform.id}

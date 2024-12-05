@@ -5,7 +5,7 @@ import investImg from "@/asset/invest-img.png";
 const LoanSavingsSection = () => {
   return (
     <section>
-      <div className="px-[0] py-[70px] grid grid-cols-[repeat(2,_1fr)] gap-[60px] items-center w-[90vw] max-w-[1350px] mx-[auto] my-[0]">
+      <div className="px-[0] py-[70px] grid grid-cols-[repeat(2,_1fr)] gap-[60px] items-center w-[90vw] max-w-[1350px] mx-[auto] my-[0] sm:grid-cols-[1fr] sm:p-0">
         <div className="px-[0] py-[20px] [border-bottom:1px_solid_#deddde]">
           <h2 className="max-w-[435px] font-bold text-[1.5rem]">
             Gain access to platforms optimized for loans and secure savings.
@@ -96,7 +96,7 @@ const LoanSavingsSection = () => {
         </div>
       </div>
 
-      <div className="px-[0] py-[70px] grid grid-cols-[repeat(2,_1fr)] gap-[60px] items-center w-[90vw] max-w-[1350px] mx-[auto] my-[0]">
+      <div className="px-[0] py-[70px] grid grid-cols-[repeat(2,_1fr)] gap-[60px] items-center w-[90vw] max-w-[1350px] mx-[auto] my-[0] sm:grid-cols-[1fr] sm:p-0 sm:flex sm:flex-col-reverse sm:mt-[70px]">
         <div className="dImg">
           <img src={investImg.src} alt="xave-img" className="max-w-full" />
         </div>

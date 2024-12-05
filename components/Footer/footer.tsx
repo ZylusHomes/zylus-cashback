@@ -9,9 +9,9 @@ const FooterSection = () => {
   return (
     <div className="bg-[#0b2230]">
       <div className="w-[90vw] max-w-[1350px] mx-[auto] my-[0]">
-        <div className="grid grid-cols-[repeat(5,_1fr)] gap-[20px]">
+        <div className="grid grid-cols-[repeat(5,_1fr)] gap-[20px] sm:grid-cols-[1fr] sm:gap-[10px] sm:px-[0] sm:py-[50px]">
           {/* Logo Section */}
-          <div className="mt-[85px] font-semibold pb-[100px] grid1">
+          <div className="mt-[85px] font-semibold pb-[100px] grid1 sm:m-0 sm:p-0">
             <Image
               src={Logo.src} // Assuming your image is in the public folder
               alt="logo"
@@ -22,7 +22,7 @@ const FooterSection = () => {
           </div>
 
           {/* Products Links */}
-          <ul className="mt-[85px] font-semibold pb-[100px] grid2">
+          <ul className="mt-[85px] font-semibold pb-[100px] grid2 sm:mt-[50px] sm:p-0">
             <li className="mb-[16px]">
               <p className="text-[#ff5402] mb-[14px]">Products</p>
             </li>
@@ -54,7 +54,7 @@ const FooterSection = () => {
           </ul>
 
           {/* Customer Stories Links */}
-          <ul className="mt-[85px] font-semibold pb-[100px] grid3">
+          <ul className="mt-[85px] font-semibold pb-[100px] grid3 sm:mt-[50px] sm:p-0">
             <li className="mb-[16px]">
               <p className="text-[#ff5402] mb-[14px]">Customer Stories</p>
             </li>
@@ -71,7 +71,7 @@ const FooterSection = () => {
           </ul>
 
           {/* Company Links */}
-          <ul className="mt-[85px] font-semibold pb-[100px] grid4">
+          <ul className="mt-[85px] font-semibold pb-[100px] grid4 sm:mt-[50px] sm:p-0">
             <li className="mb-[16px]">
               <p className="text-[#ff5402] mb-[14px]">Company</p>
             </li>
@@ -103,7 +103,7 @@ const FooterSection = () => {
           </ul>
 
           {/* Resources Links */}
-          <ul className="mt-[85px] font-semibold pb-[100px] grid5">
+          <ul className="mt-[85px] font-semibold pb-[100px] grid5 sm:mt-[50px] sm:p-0">
             <li className="mb-[16px]">
               <p className="text-[#ff5402] mb-[14px]">Resources</p>
             </li>
@@ -126,8 +126,8 @@ const FooterSection = () => {
         </div>
 
         {/* Footer Section */}
-        <footer className="flex justify-between items-center pb-[100px]">
-          <div className="text-[#fff]">
+        <footer className="flex justify-between items-center pb-[100px] sm:flex-col sm:gap-[20px] sm:pb-[30px]">
+          <div className="text-[#fff] sm:text-sm">
             Copyright @2024 Real Estate Cashback. All Rights Reserved
           </div>
 

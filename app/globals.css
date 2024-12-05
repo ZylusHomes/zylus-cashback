@@ -26,4 +26,12 @@ body {
   }
 }
 
+.holdLinkChild {
+  display: none;
+}
+
+.holdLink:hover .holdLinkChild{
+  display: block;
+}
+
 

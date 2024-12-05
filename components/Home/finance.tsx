@@ -47,10 +47,10 @@ const financeOptions = [
 export default function FinanceSection() {
   return (
     <section>
-      <div className="px-[0] py-[100px]">
+      <div className="px-[0] py-[100px] sm:px-[0] sm:py-[50px]">
         <div className="w-[90vw] max-w-[1350px] mx-[auto] my-[0]">
           <div className="flex justify-center items-center flex-col mx-[0] my-[30px]">
-            <h1 className="mb-[30px] text-[38px] font-bold w-[500px] text-center">
+            <h1 className="mb-[30px] text-[38px] font-bold w-[500px] text-center sm:w-[90%] sm:text-[27px] sm:mb-[10px]">
               Have full control over your finances and business.
             </h1>
             <p className="text-lg text-center">
@@ -58,7 +58,7 @@ export default function FinanceSection() {
             </p>
           </div>
 
-          <div className="grid grid-cols-[repeat(4,_1fr)] gap-[40px]">
+          <div className="grid grid-cols-[repeat(4,_1fr)] gap-[40px] sm:grid-cols-[1fr]">
             {financeOptions.map((option) => (
               <div
                 key={option.id}
