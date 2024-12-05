@@ -8,7 +8,6 @@ import piggy3 from "@/asset/piggy3.png";
 import { IoMenu, IoClose } from "react-icons/io5";
 
 export default function Header() {
-  const [current, setCurrent] = useState<number>();
   const [toogle, setToogle] = useState<boolean>(false);
 
   const handleClick = (e: boolean) => {
