@@ -9,14 +9,15 @@ const Faqs = () => {
   const [selectedTab, setSelectedTab] = useState(
     "Real Estate Cashback Limited"
   );
-  const [accordionState, setAccordionState] = useState<object>({});
+  
+  const [accordionState, setAccordionState] = useState<Record<number, boolean>>(
+    {}
+  );
 
   const toggleAccordion = (index: number) => {
-    console.log(index);
-
-    setAccordionState((prev: Array<object>) => ({
-      ...prev,
-      [index]: !prev[index],
+    setAccordionState((prevState) => ({
+      ...prevState,
+      [index]: !prevState[index], // Toggle the state for the specific index
     }));
   };
 

@@ -19,22 +19,6 @@ import lekki31 from "@/asset/lekki31.png";
 import lekki32 from "@/asset/lekki32.png";
 import lekki33 from "@/asset/lekki33.png";
 
-// import InvestBoxImg from "/public/static/media/invest-box.4192cf61.svg";
-// import ReturnsBoxImg from "/public/static/media/returns-box.5bbd440b.svg";
-// import FundsBoxImg from "/public/static/media/funds-box.2044bd25.svg";
-// import ProfitBoxImg from "/public/static/media/profit-box.09837aa3.svg";
-// import SalesBoxImg from "/public/static/media/sales-box.ecc1e8f6.svg";
-// import DocBoxImg from "/public/static/media/docbox.3cadfea7.svg";
-// import Pride1A from "/public/static/media/pride 1 a.f1af732b.png";
-// import Pride1B from "/public/static/media/pride 1 b.cd763593.png";
-// import Pride1C from "/public/static/media/pride 1 c.871c68a8.png";
-// import Pride2A from "/public/static/media/pride 2 a.9afd7e6b.png";
-// import Pride2B from "/public/static/media/pride 2 b.2b98c2db.png";
-// import Pride2C from "/public/static/media/pride 2 c.1240d4f2.png";
-// import Pride3A from "/public/static/media/pride 3 a.e338936d.png";
-// import Pride3B from "/public/static/media/pride 3 b.1eafee9e.png";
-// import Pride3C from "/public/static/media/pride 3 c.3e3566db.png";
-
 export default function Page() {
   return (
     <main>
