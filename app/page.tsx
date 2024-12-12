@@ -8,10 +8,14 @@ import LoanSavingsSection from "@/components/Home/LoanSaving";
 import CaseStudySection from "@/components/Home/caseStudySection";
 import FooterSection from "@/components/Footer/footer";
 import Vision from "@/components/Home/vision";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <main>
+      <Head>
+        <link rel="icon" type="image/png" href="../public/smallLogo.png" />
+      </Head>
       <Header />
       <Hero />
       <Vision />

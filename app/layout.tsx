@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Head from "next/head";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -24,11 +25,15 @@ export const metadata: Metadata = {
       // url: ""
     },
   ],
+  // icons: {
+  //   icon: "../public/smallLogo.png",
+  // },
   icons: {
-    icon: "../public/smallLogo.png",
+    icon: "../public/smallLogo.png", // Relative to the `public` directory
+    shortcut: "../public/smallLogo.png",
+    apple: "../public/smallLogo.png",
   },
 };
-
 
 export default function RootLayout({
   children,
@@ -37,6 +42,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <link rel="shortcut icon" type="image/png" href="../public/smallLogo.png" />
+      </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

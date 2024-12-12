@@ -23,7 +23,7 @@ export default function HeroSection() {
               Real Estate Cashback Cooperative
             </span>
           </p>
-          <h1 className="text-5xl max-w-[580px] font-bold sm:text-[30px] sm:text-center leading-[50px]">
+          <h1 className="text-[2.8rem] max-w-[580px] font-bold sm:text-[30px] sm:text-center leading-[50px]">
             Empowering your financial Capabilities Through Smart Investments
           </h1>
           <p className="max-w-[439px] mx-[0] my-[30px] font-semibold text-[17px] text-[#9c9e9f] sm:mx-[0] sm:my-[15px] sm:text-center">
