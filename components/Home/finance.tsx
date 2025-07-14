@@ -1,11 +1,11 @@
 import Image from "next/image";
 // import LoansImg from "/public/assets/loans.png";
 import piggy1 from "@/asset/piggy1.png";
-import piggy2 from "@/asset/piggy2.png";
+// import piggy2 from "@/asset/piggy2.png";
 import piggy3 from "@/asset/piggy3.png";
 import piggy4 from "@/asset/piggy4.png";
 import linkIma1 from "@/asset/linkIma1.png";
-import linkIma2 from "@/asset/linkIma2.png";
+// import linkIma2 from "@/asset/linkIma2.png";
 import linkIma3 from "@/asset/linkIma3.png";
 import linkIma4 from "@/asset/linkIma4.png";
 

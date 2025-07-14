@@ -2,7 +2,7 @@ import Image from "next/image";
 import Header from "@/components/Menu/menu";
 import FooterSection from "@/components/Footer/footer";
 import pss2 from "@/asset/pss2.svg";
-import pss3 from "@/asset/pss3.svg";
+// import pss3 from "@/asset/pss3.svg";
 import pss4 from "@/asset/pss4.svg";
 import int2 from "@/asset/int2.svg";
 import int3 from "@/asset/int3.svg";
