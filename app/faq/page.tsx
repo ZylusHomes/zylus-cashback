@@ -29,12 +29,12 @@ const Faqs = () => {
   ];
 
   const faqs = [
-    {
-      id: "Real Estate Cashback Limited",
-      question: "What is Real Estate CashBack ?",
-      answer:
-        "Real Estate Cashback is a Real Estate trading which allows customers invest/buy into real estate development for the purpose of generating passive income. The profit in percentage is 28% for a period of 12months and 14% for 6months.",
-    },
+    // {
+    //   id: "Real Estate Cashback Limited",
+    //   question: "What is Real Estate CashBack ?",
+    //   answer:
+    //     "Real Estate Cashback is a Real Estate trading which allows customers invest/buy into real estate development for the purpose of generating passive income. The profit in percentage is 28% for a period of 12months and 14% for 6months.",
+    // },
     {
       id: "Real Estate Cashback Limited",
       question: "What company manages Real Estate CashBack ?",
@@ -100,12 +100,12 @@ const Faqs = () => {
       answer:
         "You will get a phone call notification from us before the maturity and we will do a transfer to your account.",
     },
-    {
-      id: "Real Estate Cashback Limited",
-      question: "Can I get my interest upfront ?",
-      answer:
-        "Yes, but you will be charge 4% of the total interest, then 50% of it will be paid to you.",
-    },
+    // {
+    //   id: "Real Estate Cashback Limited",
+    //   question: "Can I get my interest upfront ?",
+    //   answer:
+    //     "Yes, but you will be charge 4% of the total interest, then 50% of it will be paid to you.",
+    // },
     {
       id: "Real Estate Cashback Limited",
       question: "How secure is my investment and data ?",
@@ -163,13 +163,13 @@ const Faqs = () => {
       answer:
         "Your security is our top priority that is why we work with a PCIDSS-compliant payment processor, Paystack to handle your card details which are very safe.",
     },
-    {
-      id: "Property Saving Scheme",
-      question:
-        "What is the interest rate and duration for Property Saving Scheme ?",
-      answer:
-        "The interest rate for Property Saving Scheme is 15% interest on annual savings calculated on a pro-rata basis for a duration of 12 months which amounts to one year.",
-    },
+    // {
+    //   id: "Property Saving Scheme",
+    //   question:
+    //     "What is the interest rate and duration for Property Saving Scheme ?",
+    //   answer:
+    //     "The interest rate for Property Saving Scheme is 15% interest on annual savings calculated on a pro-rata basis for a duration of 12 months which amounts to one year.",
+    // },
     {
       id: "Property Saving Scheme",
       question: "How do I monitor my savings ?",

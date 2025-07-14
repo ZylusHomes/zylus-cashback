@@ -18,14 +18,14 @@ const financeOptions = [
     text: "Property Activation Loan is a type of loan offered to members of the cooperative where members have access to financing for the initial deposit on a property.",
     btnText: "Loans",
   },
-  {
-    id: 2,
-    img: piggy2,
-    img2: linkIma2,
-    title: "Profit Sharing",
-    text: "Allows every individual to invest monthly on an installment basis for a period of one year to develop a building project for resale and earn a 25% return.",
-    btnText: "PSS",
-  },
+  // {
+  //   id: 2,
+  //   img: piggy2,
+  //   img2: linkIma2,
+  //   title: "Profit Sharing",
+  //   text: "Allows every individual to invest monthly on an installment basis for a period of one year to develop a building project for resale and earn a 25% return.",
+  //   btnText: "PSS",
+  // },
   {
     id: 3,
     img: piggy3,

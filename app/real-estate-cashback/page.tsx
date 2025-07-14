@@ -69,11 +69,11 @@ export default function Page() {
                     title: "Invest",
                     text: "Real estate is known to appreciate in value and holding a property for duration for the purpose of resale definitely guarantees profit.",
                   },
-                  {
-                    img: pss3,
-                    title: "Returns",
-                    text: "Profit and capital entrusted in land is payable at the trading period. The profit is pegged at 32% for 12months duration.",
-                  },
+                  // {
+                  //   img: pss3,
+                  //   title: "Returns",
+                  //   text: "Profit and capital entrusted in land is payable at the trading period. The profit is pegged at 32% for 12months duration.",
+                  // },
                   {
                     img: pss4,
                     title: "Funds Security",
